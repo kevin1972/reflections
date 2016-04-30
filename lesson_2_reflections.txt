@@ -1,3 +1,17 @@
 What happens when you initialize a repository Why do you need to do it
 A new hidden .git folder gets created and the contents of the folder are now tracked. This is required so that Git knows 
 to keep that folder under version control.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The working directory represents one area of the overall repository. The staging area represents an area that changes can be placed and then commiteed regardless of their directory in the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can group changes in logical categories and add them to the staging area and then commit them as a group.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When adding a new feature
+When adding experimental code
+When product version changes you can keep a history of the old changes via a branch
+
+How do the diagrams help you visualize the branch structure?
+They allow you to clearly represent the hierarchy and unreachable commits.
